@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'TeleBridge',
   description: 'Telegram 双向沟通机器人 / Two-way Telegram Bridge Bot',
   lang: 'zh-CN',
-  base: '/',
+  base: '/telegram-bridge/',
 
   head: [
     ['link', { rel: 'icon', href: '/telegram-bridge/favicon.ico' }],
@@ -16,6 +16,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/introduction' },
+      { text: '快速开始', link: '/guide/getting-started' },
       { text: '部署', link: '/guide/deployment/linux' },
       { text: '常见问题', link: '/guide/faq' },
       { text: '交流群组', link: 'https://t.me/kqxw_chat' },
@@ -46,8 +47,8 @@ export default defineConfig({
           text: '部署',
           items: [
             { text: 'Linux 部署', link: '/guide/deployment/linux' },
-            { text: 'Docker 部署', link: '/guide/deployment/docker' },
             { text: 'Windows 部署', link: '/guide/deployment/windows' },
+            { text: 'Docker 部署', link: '/guide/deployment/docker' },
           ],
         },
         {
